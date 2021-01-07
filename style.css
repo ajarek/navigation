@@ -57,7 +57,7 @@ body {
 }
 
 .nav div i {
-    padding: 40px;
+    
     font-size: 2rem;
 }
 
@@ -96,4 +96,14 @@ body {
     color: black;
     font-size: 1rem;
     font-weight: 300;
+}
+@media(max-width: 790px){
+    .nav,
+.nav1,
+.nav2 {
+    padding: 0;
+    width: 80%;
+}
+
+    
 }
