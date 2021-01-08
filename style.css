@@ -57,7 +57,7 @@ body {
 }
 
 .nav div i {
-    
+
     font-size: 2rem;
 }
 
@@ -97,13 +97,18 @@ body {
     font-size: 1rem;
     font-weight: 300;
 }
-@media(max-width: 790px){
-    .nav,
-.nav1,
-.nav2 {
-    padding: 0;
-    width: 80%;
-}
 
-    
+@media(max-width: 790px) {
+
+    .nav,
+    .nav1,
+    .nav2 {
+        padding: 0;
+        width: 80%;
+    }
+}
+.logo{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
 }
